@@ -4,9 +4,9 @@ import lively from "../images/projects/lively-balloons.png"
 function EachProject(props) {
   return(
     // Note: Project images are 5in x 3in, 72 px/in
-    <div className="col-sm eachProjectSpacing">
+    <div className="col eachProjectSpacing">
       <a href={props.link} target="_blank" rel="noreferrer">
-        <button className="removeDecoration imageHoverButton">
+        <button className="removeDecoration imageHoverButton centerBlock">
           <img src={props.image} alt={props.name}></img>
         </button>
       </a>
