@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+div {
+    display: block;
+}
+.section {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    margin-top: 2.5em;
+    font-size: 3em;
+}
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(78, 78, 78);
+    border: 2px solid #c2c2c2;
+    padding:0.8em 3.5em;
+    margin:2em 0.3em 0.3em 0.3em;
+    border-radius: .5em;
+    font-size: 1em;
+  }
+.button:hover {background-color: #d6d6d6;}
+
+.removeDecoration {
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+.imageHoverButton:hover {opacity: .6;}
+
+/* -------------------------------------  RIGHT BAR  ------------------------------------- */
+.rightBarSection {
+    position: fixed; 
+    bottom: 0; 
+    right: 3em; 
+    width: 40px; 
+    padding: 0; 
+}
+.rightBarButton {
+    text-decoration: none;
+    padding: .5em;
+    opacity: .7;
+    transition: all .2s ease-in-out;
+    font-size: 1em;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+.rightBarLine {
+    margin-top: 30px;
+    opacity: .8;
+}
+
+/* -------------------------------------  HEADER  ------------------------------------- */
+.navbar-wrapper {
+    width: 80%;
+    padding-top: 4em;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.navbar-wrapper .links-wrapper button {
+    text-decoration: none;
+    padding: 1em;
+    opacity: .6;
+    transition: all .2s ease-in-out;
+    font-size: 1em;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+
+/* -------------------------------------  HOME  ------------------------------------- */
+#intro {
+    margin: 14em;
+    width: 55%;
+}
+#homeMyName {
+    font-size: 4em;
+    margin: 0 0 0 0; 
+}
+.homeText {
+    font-size: 1.5em;
+    margin: 0 0 0 0; 
+}
+
+/* -------------------------------------  ABOUT  ------------------------------------- */
+.skill {
+    margin: 0 1em 0 1em;
+    width: 100px;
+    float: left;
+}
+
+/* -------------------------------------  PROJECTS  ------------------------------------- */
+.projectSpacing {
+    margin-top: 1.5em;
+}
+.eachProjectSpacing {
+    margin-top: 2em;
+}
+
+/* -------------------------------------  HOBBIES  ------------------------------------- */
+#HobbiesSpacing {
+    margin-top: 1em;
+}
+.eachHobbySpacing {
+    margin-top: 2em;
+}
+
+/* -------------------------------------  CONTACT  ------------------------------------- */
+#contactTopSpacing {
+    padding: 2em; 
+}
+#contactBottomSpacing {
+    padding: 9em;
+}
+.contactParagraph {
+    font-size: 1.3em;
+}
+
+/* -------------------------------------  FOOTER  ------------------------------------- */
+.footer {
+    margin-top: 3.5em;
+    font-size: .8em;
+}
