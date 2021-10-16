@@ -24,6 +24,9 @@ div {
     align-items: center;
     justify-content: center;
 }
+.page-container {
+    margin-bottom: 10em;
+}
 .title {
     margin-top: 2.5em;
     font-size: 3em;
