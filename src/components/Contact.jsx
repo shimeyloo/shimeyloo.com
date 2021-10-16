@@ -4,7 +4,7 @@ import Title from "./Title";
 function Contact() {
   return (
     <div className="section" id="contactSection">
-      <div className="container">
+      <div className="container page-container">
         <Title text="C O N T A C T &ensp;M E"/>
         <div id="contactTopSpacing"></div>
         <p className="contactParagraph">Let's chat.</p>

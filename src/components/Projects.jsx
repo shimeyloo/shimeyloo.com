@@ -25,7 +25,7 @@ function EachProject(props) {
 
 function Projects() {
   return (
-    <div className="section" id="projectsSection">
+    <div className="section page-container" id="projectsSection">
       <div className="container">
         <Title text="P R O J E C T S"/>
         <div className="container projectSpacing">

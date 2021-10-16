@@ -30,7 +30,7 @@ function AboutMe () {
 function About() {
   return (
     <div className="section grayBackground" id="aboutSection">
-      <div className="container">
+      <div className="container page-container">
         <Title text="A B O U T &ensp;M E"/>
         <AboutMe />
         <Skills />

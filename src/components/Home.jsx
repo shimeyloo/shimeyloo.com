@@ -1,9 +1,9 @@
 import React from "react";
-import resume from "../images/Resume.pdf"
+import resume from "../Resume.pdf"
 
 function Home() {
   return (
-    <div className="section">
+    <div className="section page-container">
       <div className="container">
         <div id="intro">
           <p className="homeText" data-aos="fade-up" data-aos-once="true" data-aos-duration="800" data-aos-delay="1100">
