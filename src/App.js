@@ -1,6 +1,7 @@
 // Notes: 
 // https://opensourcelibs.com/lib/react-portfolio-template
 // https://brittanychiang.com/
+// https://michalsnik.github.io/aos/
 
 import React from 'react'
 import Header from './components/Header'; 

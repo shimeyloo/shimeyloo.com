@@ -20,7 +20,7 @@ function SocialButton(props) {
 
 function RightBar() {
   return (
-    <div className="rightBarSection">
+    <div className="rightBarSection" data-aos="zoom-in" data-aos-once="true" data-aos-duration="800" data-aos-delay="2000">
       <SocialButton image={github} name="Github" link="https://github.com/shimeyloo" />
       <SocialButton image={email} name="Email" link="mailto: shimeyloo@gmail.com" />
       <SocialButton image={phone} name="Phone" link="tel:6263848415" />
