@@ -5,6 +5,7 @@ import invaders from "../images/projects/invaders.png";
 import hangman from "../images/projects/hangman.png";
 import website from "../images/projects/website.png";
 import progress from "../images/projects/progress.png";
+import weather from "../images/projects/weather.png";
 
 function EachProject(props) {
   return(
@@ -43,10 +44,10 @@ function Projects() {
               description="In Progress..." 
             />
             <EachProject 
-              name="Keeper App" 
-              image={progress} 
-              link="https://github.com/shimeyloo" 
-              description="In Progress..." 
+              name="Hangman" 
+              image={hangman} 
+              link="https://github.com/shimeyloo/Hangman" 
+              description="Client Server Game created with Python and sockets." 
             />
             <EachProject 
               name="Greenhouse Invaders" 
@@ -55,10 +56,10 @@ function Projects() {
               description="Space invader inspired game for OSU Fall 2021 Hackathon created with Python, and Pygame." 
             />
             <EachProject 
-              name="Hangman" 
-              image={hangman} 
-              link="https://github.com/shimeyloo/Hangman" 
-              description="Client Server Game created with Python and sockets." 
+              name="Current Weather" 
+              image={weather} 
+              link="https://github.com/shimeyloo/Current-Weather" 
+              description="Simple web application that gets the current weather for specified location by calling openweathermap API." 
             />
             <EachProject 
               name="Lively Balloons" 
