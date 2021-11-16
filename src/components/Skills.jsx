@@ -14,7 +14,7 @@ import china from "../images/skills/china.png"
 function EachSkill(props) {
   return(
     <div className="skill" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-aos-delay="1.5s">
-      <img className="centerBlock" src={props.image} alt={props.name}></img>
+      <img className="centerBlock image-skill" src={props.image} alt={props.name}></img>
       <p className="skill-description">{props.name}</p>
     </div>
   ); 
