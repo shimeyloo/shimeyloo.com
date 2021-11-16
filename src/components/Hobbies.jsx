@@ -19,8 +19,8 @@ function EachHobby(props) {
 
 function Hobbies() {
     return (
-      <div class="section grayBackground" id="hobbiesSection">
-        <div class="container page-container">
+      <div className="section grayBackground" id="hobbiesSection">
+        <div className="container page-container">
           <Title text="H O B B I E S"/>
           <p data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200">Things I do for fun...</p>
           <div className="container" id="HobbiesSpacing">

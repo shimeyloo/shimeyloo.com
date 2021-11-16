@@ -4,8 +4,9 @@ import lively from "../images/projects/lively-balloons.png";
 import invaders from "../images/projects/invaders.png";
 import hangman from "../images/projects/hangman.png";
 import website from "../images/projects/website.png";
-import progress from "../images/projects/progress.png";
 import weather from "../images/projects/weather.png";
+import crypto from "../images/projects/crypto-tracker.png";
+// import progress from "../images/projects/progress.png";
 
 function EachProject(props) {
   return(
@@ -39,9 +40,9 @@ function Projects() {
             />
             <EachProject 
               name="Cryptocurrency Tracker" 
-              image={progress} 
-              link="https://github.com/shimeyloo" 
-              description="In Progress..." 
+              image={crypto} 
+              link="https://github.com/shimeyloo/Crypto-Tracker" 
+              description="Web application to keep track of your cyprtocurrency worth created with React JS." 
             />
             <EachProject 
               name="Hangman" 

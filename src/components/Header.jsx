@@ -12,13 +12,13 @@ function HeaderButton(props) {
 
 function Header() {
   return (
-    <nav class="section">
-      <div class="container">
-        <div class="navbar-wrapper">
+    <nav className="section">
+      <div className="container">
+        <div className="navbar-wrapper">
           <div className="logo" data-aos="fade-down" data-aos-once="true" data-aos-duration="800">
             SHIMEY LOO
             </div>
-          <div class="links-wrapper">
+          <div className="links-wrapper">
             <HeaderButton name="Home" link="#homeSection" delay="200" />
             <HeaderButton name="About" link="#aboutSection" delay="350" />
             <HeaderButton name="Projects" link="#projectsSection" delay="500" />

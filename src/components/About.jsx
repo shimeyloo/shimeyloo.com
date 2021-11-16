@@ -6,8 +6,8 @@ import me from "../images/me.png"
 function AboutMe () {
   return(
     <div className="container about-container">
-      <div class="row">
-        <div class="col">
+      <div className="row">
+        <div className="col">
           <div className="about-description" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
             <p>Hello!</p>
             <p>My name is Shimey and I am aspiring to be a Software Engineer.</p>
@@ -15,7 +15,7 @@ function AboutMe () {
             <p>If you would like to learn more about my experiences, keep scrolling down, or you can check out my resume (link in the home page). </p>
           </div>
         </div>
-        <div class="col">
+        <div className="col">
           <div className="about-image" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
             <img className="black-border centerBlock" src={me} alt="Me"></img>
           </div>
