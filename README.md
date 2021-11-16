@@ -1,3 +1,5 @@
-# Portfolio Website - shimeyloo.com
+# Portfolio Website
+
+https://www.shimeyloo.com/
 
 ![](portfolio.gif)
