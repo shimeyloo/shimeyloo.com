@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../Resume.pdf"
+import resume from "../Resume1.pdf"
 
 function Home() {
   return (
