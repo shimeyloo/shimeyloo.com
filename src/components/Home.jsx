@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../images/Resume1.pdf"
+import resume1 from "../images/Resume1.pdf"
 
 function Home() {
   return (
@@ -15,7 +15,7 @@ function Home() {
           <p className="homeText" data-aos="fade-up" data-aos-once="true" data-aos-duration="800" data-aos-delay="1500">
             Aspiring Software Engineer
           </p>
-          <a href={resume} target="_blank" rel="noreferrer">
+          <a href={resume1} target="_blank" rel="noreferrer">
             <button className="button" data-aos="fade-up" data-aos-once="true" data-aos-duration="800" data-aos-delay="1700">
               R E S U M E
             </button>
