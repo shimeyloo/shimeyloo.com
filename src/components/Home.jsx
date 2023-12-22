@@ -13,7 +13,7 @@ function Home() {
             S H I M E Y &ensp;L O O.
           </p>
           <p className="homeText" data-aos="fade-up" data-aos-once="true" data-aos-duration="800" data-aos-delay="1500">
-            Aspiring Software Engineer
+            Welcome to my little corner of the internet! &#129303;
           </p>
           <a href={resume1} target="_blank" rel="noreferrer">
             <button className="button" data-aos="fade-up" data-aos-once="true" data-aos-duration="800" data-aos-delay="1700">

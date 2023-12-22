@@ -9,9 +9,9 @@ function AboutMe () {
       <div className="row">
         <div className="col">
           <div className="about-description" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-            <p>Hello!</p>
-            <p>My name is Shimey and I am aspiring to be a Software Engineer.</p>
-            <p>I’m currently a student at Oregon State University and pursuing a B.S. degree in computer science. I have one more year left and plan on graduating in the winter of 2023. </p>
+            <p>Hello Friend!</p>
+            <p>I'm Shimey, a Software Engineer who currently works for Northrop Grumman.</p>
+            <p>I graduated Fall of 2023 from Oregon State University with a B.S. degree in Computer Science.</p>
             <p>If you would like to learn more about my experiences, keep scrolling down, or you can check out my resume (link in the home page). </p>
           </div>
         </div>
